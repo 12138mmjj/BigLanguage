@@ -6,10 +6,10 @@ namespace StringFuncs
 	{
 	public:
 		// Copy string
-		static char* strcpy(char* dest, const char* src);
+		static char* strcpy(const char* src);
 
 		//Concatenate strings
-		static char* strcat(char* dest, const char* src);
+		static char* strcat(const char* src1, const char* src2);
 
 	};
 
