@@ -1,6 +1,6 @@
-// StrcpyLib.cpp : ¶¨Òå¾²Ì¬¿âµÄº¯Êıstrcpy¡£
+// StrcpyLib.cpp : å®šä¹‰é™æ€åº“çš„å‡½æ•°strcpyã€‚
 //
-
+#include "pch.h"
 #include "StrStaticLib.h"
 
 #include <stdexcept>
@@ -11,8 +11,8 @@ namespace StringFuncs
 {
 	char* MyStringFuncs::strcpy(const char* src)
 	{
-		//ÊµÏÖº¯Êıstrcpy
-		//º¯Êı¹¦ÄÜÎª¸´ÖÆ×Ö·û´®
+		//å®ç°å‡½æ•°strcpy
+		//å‡½æ•°åŠŸèƒ½ä¸ºå¤åˆ¶å­—ç¬¦ä¸²
 	}
 
 }
