@@ -5,6 +5,8 @@
 
 int MyStrcmp(const char* str1, const char* str2)
 {
-	//实现函数strcmp
-	//函数功能为字符串比较
+	//瀹炵幇鍑芥暟strcmp
+	//鍑芥暟鍔熻兘涓哄瓧绗︿覆姣旇緝
+	
+	return 0;
 }
