@@ -13,6 +13,7 @@ namespace StringFuncs
 	{
 		//实现函数strcpy
 		//函数功能为复制字符串
+		return 0;
 	}
 
 }
