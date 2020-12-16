@@ -14,6 +14,7 @@ namespace StringFuncs
 	{
 		//实现函数strcat
 		//函数功能为拼接字符串
+		return 0;
 	}
 
 }
