@@ -1,5 +1,6 @@
-// StrcatLib.cpp : 定义静态库的函数strcat
+// StrcatLib.cpp : 瀹氫箟闈欐�佸簱鐨勫嚱鏁皊trcat
 //
+#include "pch.h"
 #include "StrStaticLib.h"
 
 #include <stdexcept>
@@ -11,8 +12,8 @@ namespace StringFuncs
 {
 	char* MyStringFuncs::strcat(const char* src1, const char* src2)
 	{
-		//实现函数strcat
-		//函数功能为拼接字符串
+		//瀹炵幇鍑芥暟strcat
+		//鍑芥暟鍔熻兘涓烘嫾鎺ュ瓧绗︿覆
 	}
 
 }
