@@ -12,9 +12,22 @@ namespace StringFuncs
 {
 	char* MyStringFuncs::strcat(const char* src1, const char* src2)
 	{
-		//实现函数strcat
-		//函数功能为拼接字符串
-		return 0;
+			//实现函数strcat
+			int length1 = 0, length2 = 0;
+			const char* p1 = src1;
+			const char* p2 = src2;
+			for (; *p1++ != 0;) {
+				length1++;
+			}
+			for (; *p2++ != 0;) {
+				length2++;
+			}
+			char* dest = (char*)malloc(length1 + length2 + 1);
+			for (int i = 0; i < length1; i++)
+				dest[i] = src1[i];
+			for (int i = 0; i < length2; i++)
+				dest[length1 + i] = src2[i];
+			dest[length1 + length2] =0;
+			return dest;
 	}
-
 }
