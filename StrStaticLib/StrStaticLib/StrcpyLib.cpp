@@ -14,6 +14,9 @@ namespace StringFuncs
 		//实现函数strcpy
 		int length = 0;
 		const char* p1 = src;
+		if (src == NULL) {
+			return NULL;
+		}
 		while (*p1++ != 0)
 		{
 			length++;
